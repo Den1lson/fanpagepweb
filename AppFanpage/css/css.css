@@ -29,6 +29,11 @@ p,h1 {
     height: 300px;
 }
 
+.jk {
+    width: 325px;
+    height: 350px;
+}
+
 /*Menu e formatação do menu */
 
 nav#menu ul {
