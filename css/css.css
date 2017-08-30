@@ -1,4 +1,4 @@
-﻿
+
 body {
     background-image: url(https://hpmedia.bloomsbury.com/rep/g/page-background-shell%20-%202.png);
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@ body {
 }
 
 
-p,h1, h2 {
+p,h1 {
     color: floralwhite;
 }
 
@@ -20,18 +20,20 @@ p,h1, h2 {
     width: 350px;
     height: 300px;
 }
-.jk {
-    width: 350px;
-    height: 300px;
-}
-.hog {
-    width: 350px;
-    height: 300px;
-}
+
+
+header{
+    
+	background-image: url("http://2.bp.blogspot.com/-t4xCtQlIKwg/Uk9_x8QNKFI/AAAAAAAAA08/3F9f34FpNfA/s1600/11_-_capa_para_facebook_harry_potter.png");
+    background-size: contain;
+	border-bottom: 3px solid #6C7B8B;
+    background-attachment: fixed;
+    
+} 
 
 /*Menu e formatação do menu */
 
-nav#menu ul{
+nav#menu ul {
 
     list-style: none;
 
@@ -73,7 +75,6 @@ nav#menu li:hover {
 
 
 
-
 /*Esconder o titulo menu*/
 
 nav#menu h1 {
@@ -91,21 +92,23 @@ nav#menu a:hover {
     color: blue;
 }
 
-#rodape
-{
-	list-style: none;
+
+/*Edição das imagens */
+
+section#grifinoria img.imagem1, img.imagem2, img.imagem3  {
+
+    position: relative;
+    border: 8px solid none;
+    box-shadow: 1px 3px 4px black;
+    transition: background-color 2s;
 }
 
-#rodape li
-{
-	display: inline;
-	color: white;
-	padding: 10px;
+
+
+section#grifinoria img.imagem1:hover, img.imagem2:hover, img.imagem3:hover{
+    
+     background-color: rgba(0, 0, 0, .4);
+    
 }
 
-footer
-{
-	width: 500px;
-	position: absolute;
-	left: 30%;
-}
+
