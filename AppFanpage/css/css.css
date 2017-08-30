@@ -90,7 +90,7 @@ p {
 }
 
 
-p,h1 {
+p,h1,h2 {
     color: floralwhite;
 }
 
@@ -104,6 +104,21 @@ p,h1 {
     height: 300px;
 }
 
+.esc {
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+.hog {
+    width: 350px;
+    height: 300px;
+}
+
+.jk {
+    width: 450px;
+    height: 400px;
+}
 
 header{
     
