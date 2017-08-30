@@ -1,42 +1,4 @@
 
-body {
-    background-image: url(https://hpmedia.bloomsbury.com/rep/g/page-background-shell%20-%202.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-}
-
-
-h1 {
-    color: floralwhite;
-    font-family: serif;
-}
-
-p {
-    color: floralwhite;
-    font-family: sans-serif;
-}
-
-.hp {
-    width: 250px;
-    height: 300px;
-}
-
-.ron {
-    width: 350px;
-    height: 300px;
-}
-
-
-header{
-    
-	background-image: url("http://2.bp.blogspot.com/-t4xCtQlIKwg/Uk9_x8QNKFI/AAAAAAAAA08/3F9f34FpNfA/s1600/11_-_capa_para_facebook_harry_potter.png");
-    background-size: contain;
-	border-bottom: 3px solid #6C7B8B;
-    background-attachment: fixed;
-    
-} 
-
 /*Menu e formatação do menu */
 
 nav#menu ul {
@@ -50,10 +12,10 @@ nav#menu ul {
     (dentro do nav a posição relativa permite mecher na lista apenas dentro doconteiner nav) */
     position: absolute;
 
-    top: 1px;
+    top: 4px;
 
     /*    Distância do lado esquerdo*/
-    left: 310px;
+    left: 250px;
 }
 
 
@@ -99,6 +61,61 @@ nav#menu a:hover {
 }
 
 
+body {
+    background-image: url(https://hpmedia.bloomsbury.com/rep/g/page-background-shell%20-%202.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+
+/*Edição da interface, conteúdo da pagina*/
+
+div#interface {
+    /*Largura*/
+    width: 900px;
+
+    background-color: none;
+    /* Tag margin: (cima) (direita) (baixo) (esquerda) serve para centralização*/
+    margin: -20px auto 0px auto;
+    /*tag  box-shadow (lateral) (vertical) (espalhamento da sombra) (cor da sombra)*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .6);
+    /*Espaço interno do objeto  padding: (cima) (direita) (baixo) (esquerda)  OU  padding: (cima)*/
+    padding: 10px 10px 10px 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+p,h1 {
+    color: floralwhite;
+}
+
+.hp {
+    width: 250px;
+    height: 300px;
+}
+
+.ron {
+    width: 350px;
+    height: 300px;
+}
+
+
+header{
+    
+	background-image: url("http://2.bp.blogspot.com/-t4xCtQlIKwg/Uk9_x8QNKFI/AAAAAAAAA08/3F9f34FpNfA/s1600/11_-_capa_para_facebook_harry_potter.png");
+    background-size: contain;
+	border-bottom: 3px solid #6C7B8B;
+    background-attachment: fixed;
+    
+} 
+
+
+
 /*Edição das imagens */
 
 section#grifinoria img.imagem1, img.imagem2, img.imagem3  {
@@ -116,5 +133,4 @@ section#grifinoria img.imagem1:hover, img.imagem2:hover, img.imagem3:hover{
      background-color: rgba(0, 0, 0, .4);
     
 }
-
 
