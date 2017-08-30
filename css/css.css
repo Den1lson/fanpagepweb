@@ -102,4 +102,10 @@ section#grifinoria img.imagem1:hover, img.imagem2:hover, img.imagem3:hover, img.
     
 }
 
-
+header{
+	background-image: url("http://2.bp.blogspot.com/-t4xCtQlIKwg/Uk9_x8QNKFI/AAAAAAAAA08/3F9f34FpNfA/s1600/11_-_capa_para_facebook_harry_potter.png");
+    background-size: contain;
+	border-bottom: 3px solid #6C7B8B;
+    background-attachment: fixed;
+    
+} 
