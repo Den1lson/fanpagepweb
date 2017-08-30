@@ -7,12 +7,8 @@ body {
 }
 
 
-h1 {
-    	color: floralwhite;
-}
-
-p  {
-	color: beige;
+p,h1 {
+    color: floralwhite;
 }
 
 .hp {
@@ -25,6 +21,15 @@ p  {
     height: 300px;
 }
 
+
+header{
+    
+	background-image: url("http://2.bp.blogspot.com/-t4xCtQlIKwg/Uk9_x8QNKFI/AAAAAAAAA08/3F9f34FpNfA/s1600/11_-_capa_para_facebook_harry_potter.png");
+    background-size: contain;
+	border-bottom: 3px solid #6C7B8B;
+    background-attachment: fixed;
+    
+} 
 
 /*Menu e formatação do menu */
 
@@ -39,10 +44,10 @@ nav#menu ul {
     (dentro do nav a posição relativa permite mecher na lista apenas dentro doconteiner nav) */
     position: absolute;
 
-    top: 1px;
+    top: 4px;
 
     /*    Distância do lado esquerdo*/
-    left: 310px;
+    left: 250px;
 }
 
 
@@ -90,7 +95,7 @@ nav#menu a:hover {
 
 /*Edição das imagens */
 
-section#grifinoria img.imagem1, img.imagem2, img.imagem3, img.imagem4  {
+section#grifinoria img.imagem1, img.imagem2, img.imagem3  {
 
     position: relative;
     border: 8px solid none;
@@ -100,16 +105,10 @@ section#grifinoria img.imagem1, img.imagem2, img.imagem3, img.imagem4  {
 
 
 
-section#grifinoria img.imagem1:hover, img.imagem2:hover, img.imagem3:hover, img.imagem4:hover{
+section#grifinoria img.imagem1:hover, img.imagem2:hover, img.imagem3:hover{
     
      background-color: rgba(0, 0, 0, .4);
     
 }
 
-header{
-	background-image: url("http://2.bp.blogspot.com/-t4xCtQlIKwg/Uk9_x8QNKFI/AAAAAAAAA08/3F9f34FpNfA/s1600/11_-_capa_para_facebook_harry_potter.png");
-    background-size: contain;
-	border-bottom: 3px solid #6C7B8B;
-    background-attachment: fixed;
-    
-} 
+
