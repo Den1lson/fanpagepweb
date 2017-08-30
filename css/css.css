@@ -7,8 +7,14 @@ body {
 }
 
 
-p,h1 {
+h1 {
     color: floralwhite;
+    font-family: serif;
+}
+
+p {
+    color: floralwhite;
+    font-family: sans-serif;
 }
 
 .hp {
