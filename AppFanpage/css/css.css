@@ -1,39 +1,4 @@
 
-body {
-    background-image: url(https://hpmedia.bloomsbury.com/rep/g/page-background-shell%20-%202.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-}
-
-
-p,h1 {
-    color: floralwhite;
-}
-
-.hp {
-    width: 250px;
-    height: 300px;
-}
-
-.ron {
-    width: 350px;
-    height: 300px;
-}
-.jk {
-    width: 350px;
-    height: 300px;
-}
-.hog {
-    width: 350px;
-    height: 300px;
-}
-
-.jk {
-    width: 325px;
-    height: 350px;
-}
-
 /*Menu e formatação do menu */
 
 nav#menu ul {
@@ -78,7 +43,6 @@ nav#menu li:hover {
 
 
 
-
 /*Esconder o titulo menu*/
 
 nav#menu h1 {
@@ -94,4 +58,94 @@ nav#menu a {
 nav#menu a:hover {
 
     color: blue;
+}
+
+
+body {
+    background-image: url(https://hpmedia.bloomsbury.com/rep/g/page-background-shell%20-%202.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*Edição da interface, conteúdo da pagina*/
+
+div#interface {
+    /*Largura*/
+    width: 900px;
+
+    background-color: none;
+    /* Tag margin: (cima) (direita) (baixo) (esquerda) serve para centralização*/
+    margin: -20px auto 0px auto;
+    /*tag  box-shadow (lateral) (vertical) (espalhamento da sombra) (cor da sombra)*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .6);
+    /*Espaço interno do objeto  padding: (cima) (direita) (baixo) (esquerda)  OU  padding: (cima)*/
+    padding: 10px 10px 10px 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+p,h1 {
+    color: floralwhite;
+}
+
+.hp {
+    width: 250px;
+    height: 300px;
+}
+
+.ron {
+    width: 350px;
+    height: 300px;
+}
+
+
+header{
+    
+	background-image: url("http://2.bp.blogspot.com/-t4xCtQlIKwg/Uk9_x8QNKFI/AAAAAAAAA08/3F9f34FpNfA/s1600/11_-_capa_para_facebook_harry_potter.png");
+    background-size: contain;
+	border-bottom: 3px solid #6C7B8B;
+    background-attachment: fixed;
+    
+} 
+
+
+
+/*Edição das imagens */
+
+section#grifinoria img.imagem1, img.imagem2, img.imagem3  {
+
+    position: relative;
+    border: 8px solid none;
+    box-shadow: 1px 3px 4px black;
+    transition: background-color 2s;
+}
+
+
+
+section#grifinoria img.imagem1:hover, img.imagem2:hover, img.imagem3:hover{
+    
+     background-color: rgba(0, 0, 0, .4);
+    
+}
+
+footer li{
+    display: inline-block;
+    text-transform: uppercase;
+    left: 250px;
+    background-color: #dddddd;
+    padding:10px;
+    list-style: none;
+    margin: 5px;
+}
+
+
+footer{
+    padding:25px;
+    background-color: darkgray;
 }
