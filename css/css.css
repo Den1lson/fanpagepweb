@@ -7,8 +7,12 @@ body {
 }
 
 
-p,h1 {
-    color: floralwhite;
+h1 {
+    	color: floralwhite;
+}
+
+p  {
+	color: beige;
 }
 
 .hp {
