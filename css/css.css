@@ -35,10 +35,10 @@ nav#menu ul {
     (dentro do nav a posição relativa permite mecher na lista apenas dentro doconteiner nav) */
     position: absolute;
 
-    top: 4px;
+    top: 1px;
 
     /*    Distância do lado esquerdo*/
-    left: 250px;
+    left: 350px;
 }
 
 
