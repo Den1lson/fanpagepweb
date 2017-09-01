@@ -15,7 +15,7 @@ nav#menu ul {
     top: 4px;
 
     /*    Distância do lado esquerdo*/
-    left: 250px;
+    left: 200px;
 }
 
 
@@ -177,4 +177,10 @@ footer{
 header img{
 	width: 200px;
     height: 200x;
+}
+
+form{
+	padding: 40px;
+	margin-left: 6%;
+	margin-right: auto;
 }
