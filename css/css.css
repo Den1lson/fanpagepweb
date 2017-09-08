@@ -1,100 +1,21 @@
-
-/*Menu e formatação do menu */
-
-nav#menu ul {
-
-    list-style: none;
-
-    /*Tornam todas as letras maiusculas*/
-    text-transform: uppercase;
-
-    /* Dar a lista uma posição absoluta para que so el aflutue pela tela 
-    (dentro do nav a posição relativa permite mecher na lista apenas dentro doconteiner nav) */
-    position: absolute;
-
-    top: 4px;
-
-    /*    Distância do lado esquerdo*/
-    left: 250px;
+﻿h1, h2{
+	font-size: x-large;
 }
 
-
-nav#menu li {
-    /*Formata os itens de formatação bertical para horizontal*/
-    display: inline-block;
-
-    /*   Cor de fundo */
-    background-color: #dddddd;
-
-    /*Dá o espaçamento dentro das caixas dos itens*/
-    padding: 10px;
-
-    /*Dá um espaçamento entre as margens dos itens */
-    margin: 5px;
-
-    /*Atrasa o escurecimento dos botões, funciona como um monitoramento do background-color, não esta implementado en todos os navegadores  */
-    transition: background-color 1s;
-}
-
-nav#menu li:hover {
-    /*    Efeito de escurecimento dos botões*/
-    background-color: #606060;
-}
-
-
-
-/*Esconder o titulo menu*/
-
-nav#menu h1 {
-
-    display: none;
-}
-
-nav#menu a {
-    color: blue;
-    text-decoration: none;
-}
-
-nav#menu a:hover {
-
-    color: blue;
-}
-
-
-body {
-    background-image: url(https://hpmedia.bloomsbury.com/rep/g/page-background-shell%20-%202.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-/*Edição da interface, conteúdo da pagina*/
-
-div#interface {
-    /*Largura*/
-    width: 900px;
-
-    background-color: none;
-    /* Tag margin: (cima) (direita) (baixo) (esquerda) serve para centralização*/
-    margin: -20px auto 0px auto;
-    /*tag  box-shadow (lateral) (vertical) (espalhamento da sombra) (cor da sombra)*/
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .6);
-    /*Espaço interno do objeto  padding: (cima) (direita) (baixo) (esquerda)  OU  padding: (cima)*/
-    padding: 10px 10px 10px 10px;
+.page-title{
+	font-size: xx-large;
 }
 
 p {
     text-align: justify;
     text-indent: 50px;
-	margin-left:100px;
-	margin-right:100px;
 }
 
-
-p,h1,h2 {
-    color: floralwhite;
+.imgcasa{
+    width: 200px;
+    height: 221px;
 }
+
 .hp {
     width: 250px;
     height: 300px;
@@ -105,76 +26,28 @@ p,h1,h2 {
     height: 300px;
 }
 
-.esc, h1, h2 {
-	margin-left: auto;
-	margin-right:auto;
-	text-align: center;
-}
-
 .hog {
-	margin-left: 30%;
-	margin-right:auto;
     width: 350px;
     height: 300px;
+	padding: 10px;
 }
 
 .jk {
-	margin-left: 30%;
-	margin-right:auto;
     width: 450px;
     height: 380px;
+	padding: 10px;
 }
 
-header{
-    
-	background-image: url("http://2.bp.blogspot.com/-t4xCtQlIKwg/Uk9_x8QNKFI/AAAAAAAAA08/3F9f34FpNfA/s1600/11_-_capa_para_facebook_harry_potter.png");
-    background-size: contain;
-	border-bottom: 3px solid #6C7B8B;
-    background-attachment: fixed;
-    
-} 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-
-/*Edição das imagens */
-
-section#grifinoria img.imagem1, img.imagem2, img.imagem3  {
-
-    position: relative;
-    border: 8px solid none;
-    box-shadow: 1px 3px 4px black;
-    transition: background-color 2s;
+main {
+    flex: 1 0 auto;
 }
 
-
-
-section#grifinoria img.imagem1:hover, img.imagem2:hover, img.imagem3:hover{
-    
-     background-color: rgba(0, 0, 0, .4);
-    
-}
-
-footer li{
-    display: inline-block;
-    text-transform: uppercase;
-    left: 250px;
-    background-color: #dddddd;
-    padding:10px;
-    list-style: none;
-    margin: 5px;
-}
-
-
-footer{
-    padding:25px;
-    background-color: rgba(0,0,0,.5);
-}
-
-.imgcasa{
-    width: 280px;
-    height: 300px;
-}
-
-header img{
-	width: 200px;
-    height: 200x;
+.espesq{
+	padding-left: 30px;
 }
