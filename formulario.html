@@ -13,6 +13,9 @@
         <link type="text/css" rel="stylesheet" href="css/css.css"/>
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
+	    $(document).ready(function() {
+            $('select').material_select();
+  });
     </head>
     <body>
         <div class="navbar-fixed">
@@ -61,17 +64,21 @@
                         <label>Email:</label>
                         <input type="email" name="email"/>
                     </div>
-                    <div class="input-field col s12">
+                     <div class="input-field col s12">
                         <label>Temas de interesse principal:</label>
-                        <input type="checkbox" name="temas" value="Casas">Casas
-                        <input type="checkbox" name="temas" value="Personagens">Personagens
-                        <input type="checkbox" name="temas" value="Autora">A autora
-                        <input type="checkbox" name="temas" value="Hogwarts">Hogwarts
+                        <input type="checkbox" id="tema1"/>
+                        <label for="tema1">Casas</label>
+                        <input type="checkbox" id="tema2"/> 
+                        <label for="tema2">Personagens</label>
+                        <input type="checkbox" id="tema3"/>
+                        <label for="tema3">A autora</label>
+                        <input type="checkbox" id="tema4"/> 
+                        <label for="tema4">Hogwarts</label>
                     </div>
-                    <div class="input-field col s12">
-                        <label>Livro favorito:</label>
+                    <div class="input-field col 
+			<label>Livro favorito:</label>
 						<select>
-							<option value="-">---------</option>
+							<option value="-" disabled selected>---------</option>
 							<option value="hp1">Harry Potter e a Pedra Filosofal</option>
 							<option value="hp2">Harry Potter e a Camara Secreta</option>
 							<option value="hp3">Harry Potter e o Prisioneiro de Azkaban</option>
@@ -81,10 +88,10 @@
 							<option value="hp7">Harry Potter e as Reliquias da Morte</option>
 						</select>
                     </div>
-                    <div class="input-field col s12">
-                        <label>Filme favorito:</label>
-                        <select>
-							<option value="-">---------</option>
+                    <div class="input-field col s1
+			 <label>Filme favorito:</label>
+                                                <select>		
+							<option value="-" disabled selected>---------</option>
 							<option value="hp1">Harry Potter e a Pedra Filosofal</option>
 							<option value="hp2">Harry Potter e a Camara Secreta</option>
 							<option value="hp3">Harry Potter e o Prisioneiro de Azkaban</option>
@@ -93,7 +100,7 @@
 							<option value="hp6">Harry Potter e o Enigma do Principe</option>
 							<option value="hp7">Harry Potter e as Reliquias da Morte pt 1</option>
 							<option value="hp8">Harry Potter e as Reliquias da Morte pt 2</option>
-						</select>
+			                        </select>  
                     </div>
                     <div class="input-field inline">
                         <input type="submit" name="enviar" value="Enviar">
