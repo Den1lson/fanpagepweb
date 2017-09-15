@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <title>Harry Potter Fanpage</title>
@@ -11,8 +11,9 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/css.css"/>
-		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/mobile.js"></script>
     </head>
     <body><div class="navbar-fixed">
         <header>
@@ -20,7 +21,10 @@
             <section class="esc">
             <nav id="menu" class="grey darwn-3"> 
                 <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo">Harry Potter</a>   
+		<a href="index.html" class="brand-logo">Harry Potter</a>   
+		<a href="#" data-activates="menu-mobile" class="button-collapse">
+			<i class="material-icons">menu</i>
+		</a>   
                 <ul class="right hide-on-med-and-down">
                     <li class="active">
                         <a href="index.html" class="historia">História</a>
@@ -41,6 +45,27 @@
                         <a href="formulario.html"class="formulario">Formulário</a>
                     </li>
                 </ul>
+
+		<ul class="side-nav" id="menu-mobile">
+                    <li>
+                        <a href="index.html" class="historia">História</a>
+                    </li>
+                    <li>
+                        <a href="casas.html" class="casas">Casas</a>
+                    </li>
+                    <li>
+                        <a href="personagens.html" class="personagens">Personagens</a>
+                    </li>
+                    <li>
+                        <a href="hogwarts.html" class="hogwarts">Hogwarts</a>
+                    </li>
+                    <li class="active">
+                        <a href="autora.html" class="autora">Sobre a autora</a>
+                    </li>
+                    <li>
+                        <a href="formulario.html"class="formulario">Formulário</a>
+                    </li>
+		</ul>
                 </div>
             </nav>  
             </section>
